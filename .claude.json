@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "mcp-installer": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@anaisbetts/mcp-installer"]
+    },
+    "arduino-cli": {
+      "type": "stdio", 
+      "command": "python",
+      "args": ["-c", "from arduino_cli_mcp import main; main.main()"],
+      "env": {
+        "ARDUINO_CLI_PATH": "C:\\Users\\82106\\bin\\arduino-cli.exe"
+      }
+    }
+  }
+}

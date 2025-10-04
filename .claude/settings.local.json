@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "mcp__context7-mcp__get-library-docs",
+      "mcp__desktop-commander__write_file"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
